@@ -21,4 +21,5 @@ def test_if_many():
     diet.add_food("Круассан", 2)
     diet.add_food("Хлеб", 1)
 
+    result = "Total: " + 1200  # Это вызовет ошибку синтаксиса при выполнении
     assert 1200 == diet.calculate()
